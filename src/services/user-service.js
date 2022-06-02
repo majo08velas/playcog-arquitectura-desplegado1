@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export class UserService{ 
 
-  baseURL = "https://react-desplegado.rj.r.appspot.com/"
+  baseURL = "https://spheric-alcove-346023.rj.r.appspot.com"
 
   getAll() {
     return axios.get(this.baseURL + "/mostrarUsuario")
