@@ -15,7 +15,7 @@ function ListVideogame(){
 
     useEffect(()=>{
         axios({
-            url: 'http://localhost:8081/mostrarJuego' 
+            url: 'https://spheric-alcove-346023.rj.r.appspot.com/mostrarJuego' 
         })
             .then(response =>{
                 setVideogamesData(response.data.juegos)
