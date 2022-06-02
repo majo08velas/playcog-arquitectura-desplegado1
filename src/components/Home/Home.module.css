@@ -1,0 +1,125 @@
+:root{
+  --Grey: grey;
+}
+ body .fondo{
+    position: absolute;
+    background-image: url('./../../assets/home.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-size: 50rem;
+    background-position:top;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    left: 0;
+  }
+
+  .bodyHome{
+    background-color: rgba(111, 108, 108, .1)
+  }
+
+  .titulo{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: trajan-pro-3, serif;
+    font-size: 25px;
+    line-height: 75px;
+    position: relative;
+  }
+
+  .container{
+    background-color: white;
+    border-radius: 4px !important;
+    position: absolute;
+    top: 700px;
+    width: 370px;
+    height: 384px;
+    margin-bottom: 50px;
+    margin-bottom: 10px !important;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card{
+    border-radius: 4px 4px 0px 0 !important;
+    background-color: #94cbc4;
+    position: relative;
+    width: 370px;
+    height: 79px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .container_cero{
+    background-color: transparent;
+    border-bottom: solid;
+    border-width: 1px;
+    border-bottom-color: black;
+    position: absolute;
+    top: 550px;
+    width: 600px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+    margin-bottom: 10px !important;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+
+  #container_uno{
+    left: 150px;
+  }
+
+  #container_dos{
+    left: 650px;
+  }
+
+  #container_tres{
+    left: 1150px;
+  }
+
+  .ludo{
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    top: 130px;
+  }
+
+  .ludo:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .memoria{
+    height: 200px;
+    width: 280px;
+    position: absolute;
+    right: 48px;
+    top: 130px;
+  }
+
+  .memoria:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .triki{
+    height: 200px;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+  }
+
+  .triki:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+
+ .separador{
+   position: relative;
+   top: 540px;
+   height: 30px;
+ }
+
+  

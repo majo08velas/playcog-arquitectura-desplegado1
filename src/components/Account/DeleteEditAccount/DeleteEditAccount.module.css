@@ -1,0 +1,131 @@
+body{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 70rem;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: auto;
+  }
+
+  .section{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section form{
+    margin-top: 200px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    padding: 40px 0;
+    background-color: #94cbc4;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 500px;
+    height: 900px;
+  
+  }
+
+  .formClass{
+    width: 100%;
+    margin: auto;
+  
+  }
+
+  .titulo{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    font-family: trajan-pro-3, serif;
+  }
+
+  div hr{
+    color: #FFFFFF;
+  }
+
+  .grupo{
+    position: relative;
+    margin: 40px;
+  }
+
+  .grupo input{
+    background-color:#FFFFFF;
+    opacity: 0.8;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  input,select {
+    background-color:#FFFFFF;
+    opacity: 0.8;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+  button{
+    border-radius: 4px !important;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: transparent;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 80%;
+    margin: 10px auto !important;
+  }
+
+  .btnModificar{
+    color: #ffffff ;
+  }
+  
+  .btnModificar:hover{
+    background-color:#ffffff;
+    color:#94cbc4;
+  }
+  
+  .btnEliminar{
+    background-color: #ffffff;
+    color: #94cbc4;
+  }
+  
+  .btnEliminar:hover{
+    background-color: #94cbc4;
+    color:#ffffff;
+  }
+
+  .ModalBody{
+    font-family: trajan-pro-3, serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .ModalHeader{
+    justify-content: right;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .ModalButton{
+    background-color: #327479;
+    border: none;
+  }
+  
+  .ModalButton:hover{
+    background-color:#327479;
+    opacity: 0.9;
+  }
+  

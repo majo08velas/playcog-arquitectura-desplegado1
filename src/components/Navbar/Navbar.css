@@ -1,0 +1,112 @@
+img.logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);/*la mitad de la imagen*/
+    width: 230px;
+    height: auto;
+  }
+  
+  nav.navbar{
+    position: fixed;
+    z-index: 30;
+  }
+  
+  .navbar {
+    border-bottom: #707070;
+    border-bottom: ridge;
+    background-color: white;
+    width: 100%;
+  }
+
+  img.account{
+    position:relative;
+    right: 10px;
+    bottom: 5px;
+  }
+
+  .menuDesplegable{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    width: 50px;
+    border: none;
+    outline: none;
+    left: 600px;
+    top: 2px;
+  }
+
+  .menuDesplegable_dos{
+    position: relative;
+    background-color:#327479 ;
+    border: none;
+    height: 50px;
+    width: 100px;
+    right: 20px !important;
+    top: 2px;
+    text-align:center;
+  }
+
+  .menuDesplegable:hover{
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .menuDesplegable_dos:hover{
+    background-color: #94cbc4;
+  }
+
+  .menuDesplegable:focus{
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    line-height: 0%;
+    border: none;
+    outline: none;  
+  }
+
+  .menuDesplegable::selection{
+    border: none;
+    outline: none;
+  }
+
+  .btn-juegos{
+    position: absolute;
+    right: 100px;
+    width: 100px;
+    background-color: #327479;
+    border: solid;
+    border-width: 1px;
+    border-color: #327479;
+    border-radius: 4px !important;
+    color:#ffffff;
+  }
+
+  .btn-juegos:hover{
+    background-color: #94cbc4;
+    border-color: #94cbc4;
+  }
+
+  .btn-sobre-nosotros{
+    position: absolute;
+    right: 230px;
+    width: 180px;
+    height: 46px;
+    background-color: #327479;
+    border: solid;
+    border-width: 1px;
+    border-color: #327479;
+    border-radius: 4px !important;
+    color:#ffffff;
+    font-size: 13px;
+
+  }
+
+  .btn-sobre-nosotros:hover{
+    background-color: #94cbc4;
+    border-color: #94cbc4;
+  }
+
+
+ 

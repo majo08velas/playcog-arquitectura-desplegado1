@@ -1,0 +1,58 @@
+:root{
+    /* Colors */
+    --white:#FFFFFF;
+    --Black: #000000;
+    --Grey: #707070;
+    --bluelight: #87cec8;
+    --blueDark: #327479;
+    --pinklight: #fff4e5;
+    /* size */
+    --sm: 14px;
+    --md: 18px;
+    --lg: 22px;
+
+    --Opacity: opacity: 0.29;
+}
+
+.bodyItem{
+    background-image: url('./../../../assets/fondo.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 70rem;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: auto;
+    height: 300px;
+}
+
+.container_title{
+    padding: 15px;
+    border: 1px solid var(--pinklight) ;
+    font-family: trajan-pro-3, serif;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    z-index: 1;
+}
+
+.container_videogames{
+    background-color: #87CEC8;
+    opacity: 0.78;
+    position: relative;
+    width: 1000px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    display:flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px){
+    .container_videogames{
+        flex-direction: column;
+    }
+    .container_videogames a{
+        margin-bottom: 8px;
+    }
+}

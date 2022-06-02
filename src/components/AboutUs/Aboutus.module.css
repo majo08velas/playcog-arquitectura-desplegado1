@@ -1,0 +1,12 @@
+.container{
+    background-image: url('./../../assets/fondo.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 70rem;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    height: 1000px;
+}

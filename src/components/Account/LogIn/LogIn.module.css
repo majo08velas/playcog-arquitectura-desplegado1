@@ -1,0 +1,139 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 70rem;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .section{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formClass{
+    margin-top: 90px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    padding: 40px 0;
+    background-color: #94cbc4;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 440px;
+  
+  }
+  
+  .form{
+    width: 100%;
+    margin: auto;
+  
+  }
+  
+   .grupo{
+    position: relative;
+    margin: 45px;
+  }
+  
+ .grupo input {
+    background-color: transparent;
+    padding: 30px 10px 10px 80px;
+    display: block;
+    width: 100%;
+    border: none ;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  .user {
+    position: absolute;
+    z-index: 20;
+  }
+  
+  .pass {
+    z-index: 20;
+    position: absolute;
+  }
+  
+  .recuperarPass{
+    position: relative;
+    left: 10%;
+    top: -30px;
+    margin-bottom: 20px !important;
+    margin-right: 0 !important;
+    display: block;
+    width: 80%;
+  }
+  
+  .recuperarPass a{
+    text-decoration: none;
+    color:#ffffff;
+    opacity: 0.62;
+  }
+  
+  .recuperarPass a:hover{
+    color: #ffffff;
+  }
+  
+  button{
+    border-radius: 4px !important;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: transparent;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 80%;
+    margin: 10px auto !important;
+  }
+  
+  .btnIniciar {
+    color: #ffffff ;
+  }
+  
+  .btnIniciar:hover{
+    background-color:#ffffff;
+    color:#94cbc4;
+  }
+  
+  .btnCrear {
+    background-color: #ffffff;
+    color: #94cbc4;
+  }
+  
+  .btnCrear:hover{
+    background-color: #94cbc4;
+    color:#ffffff;
+  }
+
+  .ModalBody{
+    font-family: trajan-pro-3, serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .ModalHeader{
+    justify-content: right;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .ModalButton{
+    background-color: #327479;
+    border: none;
+  }
+  
+  .ModalButton:hover{
+    background-color:#327479;
+    opacity: 0.9;
+  }

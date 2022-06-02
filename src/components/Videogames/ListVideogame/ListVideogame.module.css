@@ -1,0 +1,81 @@
+:root{
+    /* Colors */
+    --white:#FFFFFF;
+    --Black: #000000;
+    --bluelight: #87cec8;
+    --blueDark: #327479;
+    --pinklight: #fff4e5;
+    /* size */
+    --sm: 14px;
+    --md: 18px;
+    --lg: 22px;
+}
+
+ section .videogames_section{
+    width: 80%;
+    height: 900px ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.videogames_section h2{
+    font-size: var(--lg);
+    color: var(--white);
+}
+
+.videogames_section a{
+    color: var(--Black);
+    font-size: var(--md);
+}
+.videogames_section a:hover{
+    color: var(--blueDark);
+}
+
+
+/* Logo */
+.myAccount{
+    margin-top: 40px;
+    width: 100%;
+    position: absolute;
+}
+
+.container_myAccount{
+    background-color: var(--bluelight);
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    margin-right: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_myAccount:hover{
+    background-color: var(--blueDark);
+}
+
+.container_myAccount img{
+    padding: 8px;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.container{
+    top: 150px;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 50px;
+    background-color: #43968F;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: trajan-pro-3, serif;
+    font-size: 20px;   
+}

@@ -1,0 +1,20 @@
+#footer {
+    width: 100%;
+    bottom: 0;
+    border-bottom: #707070;
+    border-top: ridge;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .correo{
+    margin-left: 10px;
+    font-family: trajan-pro-3, serif;
+    color: #707070;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+  }
+  
+  
