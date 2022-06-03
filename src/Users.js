@@ -2,7 +2,6 @@ import { Component } from "react";
 import { UserService } from "./services/user-service";
 
 export default class Users extends Component{
-
   constructor(props){
     super(props);
     this.state = {personas:[]}
@@ -15,7 +14,7 @@ export default class Users extends Component{
 
   render(){
     return(
-      console.log("")
+      console.log("...")
     );
   }
 
