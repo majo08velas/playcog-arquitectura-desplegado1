@@ -1,9 +1,10 @@
 body{
-    background-repeat:no-repeat;
+    /* background-repeat:no-repeat;
     background-size: cover;
     background-size: 70rem;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: pink
     overflow: auto;
   }
 
@@ -19,7 +20,7 @@ body{
     margin-right: 13px;
     margin-bottom: 10px;
     padding: 40px 0;
-    background-color: #94cbc4;
+    background-color: white;
     opacity: 0.9;
     border-radius: 10px;
     width: 500px;
@@ -34,14 +35,14 @@ body{
   }
 
   .titulo{
-    color: #FFFFFF;
+    color: black;
     text-align: center;
     font-size: 25px;
     font-family: trajan-pro-3, serif;
   }
 
   div hr{
-    color: #FFFFFF;
+    color: black;
   }
 
   .grupo{

@@ -138,7 +138,7 @@ class DeleteEditAccount extends Component{
         const {nombre,apellido,correo,contrasena,fecha_nacimiento,telefono,residencia} = this.state;
         
         return(
-            <body background={background} className={styles.body}>
+            <body className={styles.body}>
                 <div className={styles.section}>
                     <form>
                         <div className={styles.formClass}>
